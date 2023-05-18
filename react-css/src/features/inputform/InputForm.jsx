@@ -8,7 +8,9 @@ export default function InputForm() {
             <p className={styles.color}>
                 {styles.color}
             </p>
-            <a className={`${styles.font}`} href="">app에 있는 css를 가져옵니다</a>
+            <a className={`${styles.color} App-link`} href="">
+                app에 있는 css를 가져옵니다
+            </a>
         </div>
     )
 }
